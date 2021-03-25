@@ -3,6 +3,6 @@ Public Class SqrtCommand
     Implements ICommand
 
     Public Sub Execute() Implements ICommand.Execute
-        Console.WriteLine("Sqrt Command.")
+        Console.WriteLine("sqrt(9) = {0}", Math.Sqrt(9))
     End Sub
 End Class
